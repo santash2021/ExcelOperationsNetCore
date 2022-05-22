@@ -29,6 +29,20 @@
 _UpgradeReport_Files/
 [Pp]ackages/
 
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
 Thumbs.db
 Desktop.ini
 .DS_Store

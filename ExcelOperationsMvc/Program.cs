@@ -1,7 +1,11 @@
+using ExcelOperationsMvc.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IExcelService, ExcelService>();
 
 var app = builder.Build();
 
